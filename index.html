@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rent cars</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  
+  <body>
+    
+    <main>
+      <form id="Form">
+        <fieldset>
+          <label>Customer Name</label>
+          <input type="text" name="custName" />
+          <br>
+
+          <label>Car Model:</label>
+          <select name="CarModel">
+            <option value="Ford">Ford</option>
+            <option value="BMW">BMW</option>
+            <option value="Kia">Kia</option>
+            <label name="carprice"></label>
+          </select>
+          <br>
+
+
+          <button type="submit">Submit</button>
+        </fieldset>
+      </form>
+      <section>
+        <ul id="cars"></ul>
+      </section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>

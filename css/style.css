@@ -1,0 +1,37 @@
+body {
+    background-image: url(https://i.ibb.co/TvjC7Wq/background.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  ul#cars {
+    background-color: green;
+    font-weight: bold;
+    color: white;
+    width: 300px;
+    overflow: auto;
+  }
+  #Form{
+    width: 40%;
+    margin-top: 20%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    color: white;
+  }
+  #cars{
+    width: 40%;
+    margin-bottom: 40%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    color: white;
+    margin-left: 50%;
+
+  }
+   
